@@ -1,0 +1,41 @@
+name: flutter_nominatim
+description: "A Flutter plugin for free geocoding and place search using OpenStreetMap's Nominatim service with built-in optimizations and no API key required"
+version: 0.0.1
+homepage: https://github.com/YudizAndroidPayal/flutter_nominatim
+issue_tracker: https://github.com/YudizAndroidPayal/flutter_nominatim/issues
+documentation: https://pub.dev/documentation/flutter_nominatim/latest/
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+screenshots:
+  - description: A Flutter plugin for free geocoding and place search using OpenStreetMap's Nominatim service.
+    path: screenshots/flutter_nominatim_logo.png
+
+# Topics for pub.dev
+topics:
+  - geocoding
+  - location
+  - maps
+  - nominatim
+  - openstreetmap
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
