@@ -6,11 +6,16 @@
 
 # flutter_nominatim
 
-## Why Choose flutter_nominatim? 🚀
+ **Completely Free & Open Source!**
+ Unlike other geocoding services, Nominatim is 100% free to use with **NO API key required**.
+ You can start implementing location features in your app immediately without any payment or API key setup.
 
-> **Completely Free & Open Source!**
-> Unlike other geocoding services, Nominatim is 100% free to use with **NO API key required**.
-> You can start implementing location features in your app immediately without any payment or API key setup.
+## Example Screenshots 📸
+
+|                                                         Place Search                                                          |                                                  Convert LatLng to Address                                                  |                                                  Convert Address to LatLng                                                  |
+|:-----------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/ss_search.png" width="240"/> | <img src="https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/ss_geo1.png" width="240"/> | <img src="https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/ss_geo2.png" width="240"/> |
+|                                          Auto-complete search with realtime results                                           |                                        Convert coordinates to human-readable address                                        |                                         Convert address to geographical coordinates                                         |
 
 ### Key Benefits
 
@@ -21,14 +26,6 @@
 | 🌍 Global Coverage | Worldwide address database | Works everywhere your app does |
 | 🚀 Easy Integration | Simple API methods | Get started in minutes |
 | ⚡ Performance Optimized | Built-in rate limiting & caching | Smooth user experience |
-
-
-## Example Screenshots 📸
-
-|                                                         Place Search                                                          |                                                  Convert LatLng to Address                                                  |                                                  Convert Address to LatLng                                                  |
-|:-----------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/ss_search.png" width="240"/> | <img src="https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/ss_geo1.png" width="240"/> | <img src="https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/ss_geo2.png" width="240"/> |
-|                                          Auto-complete search with realtime results                                           |                                        Convert coordinates to human-readable address                                        |                                         Convert address to geographical coordinates                                         |
 
 ## Features Overview
 
@@ -65,7 +62,6 @@ dependencies:
 
 ```dart
 // Initialize
-
 final nominatim = Nominatim.instance;
 
 // Search places
