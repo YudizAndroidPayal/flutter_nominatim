@@ -1,8 +1,9 @@
 ![](https://raw.githubusercontent.com/YudizAndroidPayal/flutter_nominatim/main/screenshots/banner.gif)
 
-![GitHub code size](https://img.shields.io/github/languages/code-size/yourusername/flutter_nominatim)
+![GitHub code size](https://img.shields.io/github/languages/code-size/YudizAndroidPayal/flutter_nominatim)
 [![Pub](https://img.shields.io/pub/v/flutter_nominatim.svg)](https://pub.dartlang.org/packages/flutter_nominatim)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![package publisher](https://img.shields.io/pub/publisher/flutter_nominatim.svg)](https://pub.dev/packages/flutter_nominatim/publisher)
 
 # flutter_nominatim
 
